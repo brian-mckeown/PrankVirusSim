@@ -1,0 +1,112 @@
+#!/bin/bash
+
+sleep 2
+echo ''
+echo 'Starting up...'
+echo ''
+sleep 2
+echo 'Searching computer for program...'
+sleep 2
+pwd
+sleep 2
+ls
+sleep 2
+cd Desktop
+sleep 2
+echo ''
+echo 'Directory Found:'
+echo ''
+sleep 2
+pwd
+sleep 2
+ls
+sleep 2
+cd PythonFiles
+sleep 2
+echo ''
+echo 'Directory found:'
+echo ''
+sleep 2
+pwd
+sleep 2
+ls
+sleep 2
+echo ''
+echo 'Program found'
+echo ''
+sleep 2
+echo 'Executing...'
+python Widget.py
+sleep 2
+echo 'Listing your DOCUMENTS that were eaten:'
+sleep 4
+cd ~
+find ./Documents -type f -exec echo {} \;
+sleep 2
+echo ''
+echo ''
+echo 'DOCUMENTS GONE!!! YUM!'
+sleep 2
+echo ''
+echo 'Listing DOWNLOADS that were eaten:'
+sleep 4
+find ./Downloads -type f -exec echo {} \;
+sleep 2
+echo ''
+echo ''
+echo 'DOWNLOADS GONE!!! YUM!'
+sleep 2
+echo ''
+echo 'Listing your PICTURES that were eaten:'
+sleep 4
+cd ~
+find ./Pictures -type f -exec echo {} \;
+sleep 2
+echo ''
+echo ''
+echo 'PICTURES GONE!!! YUM!'
+sleep 2
+echo ''
+echo 'Listing your MUSIC that was eaten:'
+sleep 4
+cd ~
+find ./Music -type f -exec echo {} \;
+sleep 2
+echo ''
+echo ''
+echo 'MUSIC GONE!!! YUM!'
+sleep 2
+echo ''
+echo 'Ooooh, I even found your GOOGLE DRIVE BACKUP!!! Google Drive Files Eaten:'
+sleep 4
+cd ~
+find ./Google\ Drive -type f -exec echo {} \;
+sleep 2
+echo ''
+echo ''
+echo 'GOOGLE DRIVE GONE!!! YUM!'
+sleep 2
+echo ''
+echo 'WIDGET HAS EATEN ALL OF YOUR FILES... WOOF!!!'
+sleep 2
+echo ':)'
+sleep .5
+echo ':)'
+sleep .5
+echo ':)'
+sleep .5
+echo ':)'
+sleep .5
+echo ':)'
+sleep .5
+echo ':)'
+sleep .5
+echo ':)'
+sleep .5
+echo ':)'
+sleep .5
+echo ':)'
+sleep .5
+echo ':)'
+sleep .5
+
