@@ -8,4 +8,5 @@ The program is hardcoded for my machine at this time, but can easily be adapted 
 
 The WidgetPySim file is a Unix Shell Script. This simply accesses the needed directories, and launches the Widget python script, which will perform the simulated virus. Everything is scripted in a verbose manner, so that the user can see what is happening.
 
-View a video demonstration here: 
+View a video demonstration here: https://youtu.be/d3v9zXBtRco
+
